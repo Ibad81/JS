@@ -4,3 +4,4 @@ prompt
 uppercase
 lowercase
 #Capital first char and remain left lower case
+#dog age in human year
