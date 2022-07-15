@@ -26,5 +26,6 @@ var name=prompt("Enter your name");
 var capatialchar=name.slice(0,1);
 var upperchar=capatialchar.toUpperCase();
 var reatofthe=name.slice(1,name.length);
-var capatialname=upperchar+reatofthe;
+var lowerchar=reatofthe.toLowerCase();
+var capatialname=upperchar+lowerchar;
 alert(capatialname);
