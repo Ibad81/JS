@@ -29,3 +29,10 @@ var reatofthe=name.slice(1,name.length);
 var lowerchar=reatofthe.toLowerCase();
 var capatialname=upperchar+lowerchar;
 alert(capatialname);
+
+------Dog age in human year------
+
+var dogage=prompt("How old is your dog?");
+var humanage=((dogage-2)*4)+21;
+alert("Your dog age in human years is "+humanage);
+
