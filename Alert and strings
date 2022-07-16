@@ -36,3 +36,11 @@ var dogage=prompt("How old is your dog?");
 var humanage=((dogage-2)*4)+21;
 alert("Your dog age in human years is "+humanage);
 
+------Arthemtic-------
+
+var a=3;
+// var b=3
+// a+=b
+// alert(a);
+
+a++;
