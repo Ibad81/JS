@@ -44,3 +44,14 @@ var a=3;
 // alert(a);
 
 a++;
+
+ ----function-----
+ function milkcall() {
+    alert("move right");
+    alert("move left");
+}
+milkcall();
+function milkcall(){
+    console.log("Hello");
+}
+milkcall();
