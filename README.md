@@ -7,3 +7,4 @@ lowercase
 #dog age in human year
 #Incremrnt and decrement
 #function-console.log
+#Function Karel IDE
