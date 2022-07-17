@@ -53,3 +53,67 @@ function call(){
    move();
    move();
 }
+
+
+-----putBeeper()------
+Diagonal Print
+
+function main(){
+   putBeeper();
+   diagonalmove();
+   diagonalmove();
+   diagonalmove();
+   diagonalmove();
+  
+}
+function diagonalmove(){
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+   turnRight();
+}
+
+-----Make a chess Board-----
+
+function main(){
+   beeperright();
+   moveleft();
+   beeperleft();
+   moveright();
+   beeperright();
+   moveleft();
+   beeperleft();
+   moveright();
+   beeperright();
+}
+function beeperright(){
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   
+}
+function moveleft(){
+   turnLeft();
+   move();
+   turnLeft();
+   
+}
+
+function beeperleft(){
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+}
+function moveright() {
+turnRight();
+move();
+turnRight();
+}
