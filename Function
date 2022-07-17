@@ -1,1 +1,55 @@
+----function-----
+ function milkcall() {
+    alert("move right");
+    alert("move left");
+}
+milkcall();
+function milkcall(){
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+}
+milkcall();
 
+
+-------Karel-------
+function main(){
+   //your code here
+   Ibad();
+   Ibad();
+   Ibad();
+   Ibad();
+
+   
+}
+function Ibad(){
+   call();
+   turnLeft();
+   call();
+   turnLeft();
+   call();
+   turnLeft();
+   call();
+   turnLeft();
+}
+function call(){
+   move();
+   move();
+   move();
+   move();
+}
